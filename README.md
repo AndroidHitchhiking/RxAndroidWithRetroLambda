@@ -1,7 +1,8 @@
 # HelloRxAndRetro
 An Android example project to show basic guide in RxAndroid with Retro lambda.
 
-####Setup Rx Android and Retro lambda in App – 
+####Setup Rx Android and Retro lambda in App
+------------
 •	Must have java 8 and java 7.
 Add the below line in project level build.gradle file
 
