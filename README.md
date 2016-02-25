@@ -23,11 +23,13 @@ apply plugin: 'me.tatarka.retrolambda'
 
 
 compileOptions {
+
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
 }
 
 packagingOptions {
+
     exclude 'META-INF/DEPENDENCIES'
     exclude 'META-INF/NOTICE'
     exclude 'META-INF/LICENSE'
@@ -36,6 +38,7 @@ packagingOptions {
 }
 
 retrolambda {
+
     jdk "C:/Program Files/Java/jdk1.8.0_45" //your java 8 path till jdk
     oldJdk "C:/Program Files (x86)/Java/jdk1.7.0_71" // your java 7 path till jdk
     javaVersion JavaVersion.VERSION_1_7
