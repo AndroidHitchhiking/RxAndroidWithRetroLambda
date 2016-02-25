@@ -18,9 +18,8 @@ Add RxAndroid dependency and supported lines in App level build.gradle file
 
 Must be at top after apply plugin: 'com.android.application'
 
-'''xml 
-apply plugin: 'me.tatarka.retrolambda'
-'''
+    apply plugin: 'me.tatarka.retrolambda' 
+
 
 
 In android{} section add below line as it is with your java 8 and java 7 path
