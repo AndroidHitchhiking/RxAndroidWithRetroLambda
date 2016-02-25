@@ -14,10 +14,14 @@ dependencies {
 
 
 Add RxAndroid dependency and supported lines in App level build.gradle file 
+
+
 // Must be at top after apply plugin: 'com.android.application'
 apply plugin: 'me.tatarka.retrolambda'
 
 // in android{} section add below line as it is with your java 8 and java 7 path
+
+
 compileOptions {
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
@@ -35,7 +39,6 @@ retrolambda {
     jdk "C:/Program Files/Java/jdk1.8.0_45" //your java 8 path till jdk
     oldJdk "C:/Program Files (x86)/Java/jdk1.7.0_71" // your java 7 path till jdk
     javaVersion JavaVersion.VERSION_1_7
-
     println("***************** ---------- *******************")
     println("JAVA_HOME: " + System.getenv("JAVA_HOME"))
     println("JAVA7_HOME: " + System.getenv("JAVA7_HOME"))
